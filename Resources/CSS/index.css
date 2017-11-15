@@ -82,6 +82,10 @@ nav {
   width: 960px;
 }
 
+.smallnav {
+  display: none;
+}
+
 .contentbackground {
   display: flex;
   width: 100%;
@@ -155,4 +159,24 @@ footer {
   display: inline-flex;
   width: 960px;
   align-items: center;
+}
+
+@media screen and (max-width:1024px) {
+  .content {
+    
+  }
+  .smallnav {
+    display: inline-flex;
+  }
+  nav {
+    display:none;
+  }
+
+.item {
+  width:47%;
+  overflow: hidden;
+  }
+.extra {
+  width: 35%;
+}
 }
