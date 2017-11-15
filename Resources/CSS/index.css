@@ -161,9 +161,11 @@ footer {
   align-items: center;
 }
 
+<!--Media Queries-->
+
 @media screen and (max-width:1024px) {
   .content {
-    
+    width:100%;
   }
   .smallnav {
     display: inline-flex;
@@ -171,12 +173,10 @@ footer {
   nav {
     display:none;
   }
-
 .item {
   width:47%;
-  overflow: hidden;
   }
-.extra {
-  width: 35%;
+.third {
+  display: none;
 }
 }
